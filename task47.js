@@ -15,21 +15,27 @@ const result = reverse('Hello!');
 console.log(result); // => '!olleH'
 */
 
-
+/*
 
 const convertText = (string)=> {
     const firstChar = string[0];
-    
     if ( firstChar == firstChar.toUpperCase()) {
         return  string.split("").reverse().join("");
-       
     }
     else if (firstChar === string[0]) {
         return string;
-        
-   
-    
     }
+}
+*/
+
+const convertText = (string)=> {
+
+const firstChar = string[0];
+
+return firstChar == firstChar.toUpperCase()?string.split("").reverse().join(""):string;
+
+
+
 }
 
 
