@@ -4,14 +4,11 @@ const arr = [17, 23, 31, 44, 59];
 
 
 function doubleNumber(array) {
-  
-
   for ( i = 0; i < array.length; i++) {
-   array = []
-    array[i] = array[i] *2
-     console.log(array)
-}
-return array;
+    array[i] *= 2
+    return array;
 }
 
-doubleNumber(arr);
+}
+
+console.log(doubleNumber(arr));
