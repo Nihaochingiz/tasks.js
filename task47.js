@@ -19,11 +19,14 @@ console.log(result); // => '!olleH'
 
 const convertText = (string)=> {
     const firstChar = string[0];
-    if ( firstChar == firstChar.toUpperCase()) {
-        return  string.split("").reverse().join("");
+    if ( firstChar !== firstChar.toUpperCase()) {
+       return string
+    }
+    else if ( string = '') {
+        return string;
     }
     else if (firstChar === string[0]) {
-        return string;
+        return  string.split("").reverse().join("");
     }
 }
 */
@@ -32,7 +35,7 @@ const convertText = (string)=> {
 
 const firstChar = string[0];
 
-return firstChar == firstChar.toUpperCase()?string.split("").reverse().join(""):string;
+return firstChar !== firstChar.toUpperCase()?string:string.split('').reverse().join('');
 
 
 
