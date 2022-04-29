@@ -12,38 +12,6 @@ Examples:
 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11 
 
 */
-/*
-function digital_root(a) {
-    return digital_root(a) + digital_root(a + 2);
-   
-  }
-
-  console.log( digital_root(16,27) )
-Объект Number является объектом-обёрткой, позволяющей вам работать с числовыми значениями. Объект Number создаётся через конструктор Number()
-Несколько замечаний относительно использования объекта Number:
-
-Если аргумент не может быть преобразован в число, возвращается NaN.
-В неконструкторном контексте (то есть, без оператора new), объект Number может использоваться для проведения преобразования типов.
-*/
-/*
-  function digital_root(n) {
-    var digits = n.toString().split("").map(Number);//Number это функция, поэтому ее можно применить к каждому элементу массива
-    var sum = 0;
-    for (var i = 0; i < digits.length; i++) {
-      sum += digits[i];
-    }
-    var sumString = sum.toString();
-    if (sumString.length > 1) {
-      var sumDigits = sumString.split("").map(Number);
-      var firstSumDigit = sumDigits.slice(0);
-      var lastSumDigit = sumDigits.slice(-1);
-      return firstSumDigit[0] + lastSumDigit[0];
-    } else {
-        return sum;
-    }
-  }
-
-*/
   function digital_root(n){
     let result = 0;
     String(n).split('').map(num => {
