@@ -26,22 +26,3 @@ const getHiddenCard= (number)=> {
 // END
 console.log(getHiddenCard('1234567812345678'));
 
-/*
-function maskify(number) {
-    if(number.length < 4 ) {
-        return number
-    } else {
-        let last4 = '';
-        for ( let i = number.length - 4; i < number.length; i++) {
-            last4 += number[i]
-        }
-        let mask = ''
-        for(let j = 0; j < number.length - 4; j++){
-            mask += '#'
-        }
-
-        return mask + last4
-    }
-}
-
-*/
