@@ -23,6 +23,7 @@ const printReversedNameBySymbol=(name)=> {
 
 
 printReversedNameBySymbol(text);
+
 // => 'a'
 // => 'y'
 // => 'r'
