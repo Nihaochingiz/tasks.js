@@ -19,7 +19,7 @@ const joinNumbersFromRange = (firstNumber, secondNumber) => {
     }
     return str;
   }
-  // END
+   // END
 
 
   console.log(joinNumbersFromRange(1,2));
