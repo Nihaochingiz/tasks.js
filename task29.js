@@ -1,7 +1,7 @@
 const printNumbers = (initialNumber) => {
   // BEGIN (write your solution here)
   let i = initialNumber;
-  while (i<=100) {
+  while (i <= 100) {
     console.log(i);
      i++;
      
