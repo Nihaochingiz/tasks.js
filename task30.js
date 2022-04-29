@@ -1,4 +1,4 @@
-//from hexlet 
+ //from hexlet 
 
 const sumNumbersFromRange = (start, finish) => {
     // Технически можно менять start
