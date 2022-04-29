@@ -9,7 +9,7 @@ let multiplyNumbersFromRange = (firstNumber,lastNumber) => {
 }
 return result;
   }
-  // END
+   // END
 
 
 console.log(multiplyNumbersFromRange(1, 10));
